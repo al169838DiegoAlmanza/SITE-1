@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LATITUDE-E5440\\Source\\Repos\\169870MichelleRincon\\SITEejemplo\\SITE\\SITE.csproj",
+      "projectUniqueName": "C:\\Users\\LATITUDE-E5440\\Source\\Repos\\SITE\\SITE\\SITE.csproj",
       "projectName": "SITE",
-      "projectPath": "C:\\Users\\LATITUDE-E5440\\Source\\Repos\\169870MichelleRincon\\SITEejemplo\\SITE\\SITE.csproj",
+      "projectPath": "C:\\Users\\LATITUDE-E5440\\Source\\Repos\\SITE\\SITE\\SITE.csproj",
       "packagesPath": "C:\\Users\\LATITUDE-E5440\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LATITUDE-E5440\\Source\\Repos\\169870MichelleRincon\\SITEejemplo\\SITE\\obj\\",
+      "outputPath": "C:\\Users\\LATITUDE-E5440\\Source\\Repos\\SITE\\SITE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LATITUDE-E5440\\AppData\\Roaming\\NuGet\\NuGet.Config",
