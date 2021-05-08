@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="HistorialVenta - Copy.Designer.cs">
+      <DependentUpon>Historial.Designer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="HistorialVenta - Copy.resx">
+      <DependentUpon>Historial.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
