@@ -39,8 +39,8 @@ namespace SITE
             this.PicLogo = new System.Windows.Forms.PictureBox();
             this.Titulo = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panelElegirProductos = new System.Windows.Forms.Panel();
+            this.panelCarrito = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).BeginInit();
             this.panel2.SuspendLayout();
@@ -187,24 +187,19 @@ namespace SITE
             this.panel2.Size = new System.Drawing.Size(1139, 112);
             this.panel2.TabIndex = 17;
             // 
-            // checkBox1
+            // panelElegirProductos
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(436, 464);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(83, 19);
-            this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.panelElegirProductos.Location = new System.Drawing.Point(240, 148);
+            this.panelElegirProductos.Name = "panelElegirProductos";
+            this.panelElegirProductos.Size = new System.Drawing.Size(518, 553);
+            this.panelElegirProductos.TabIndex = 18;
             // 
-            // button1
+            // panelCarrito
             // 
-            this.button1.Location = new System.Drawing.Point(436, 512);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.panelCarrito.Location = new System.Drawing.Point(784, 148);
+            this.panelCarrito.Name = "panelCarrito";
+            this.panelCarrito.Size = new System.Drawing.Size(518, 553);
+            this.panelCarrito.TabIndex = 19;
             // 
             // Venta
             // 
@@ -212,8 +207,8 @@ namespace SITE
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1339, 743);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.panelCarrito);
+            this.Controls.Add(this.panelElegirProductos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnProveedores);
@@ -229,7 +224,6 @@ namespace SITE
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -244,7 +238,7 @@ namespace SITE
         private System.Windows.Forms.PictureBox PicLogo;
         private System.Windows.Forms.Label Titulo;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelElegirProductos;
+        private System.Windows.Forms.Panel panelCarrito;
     }
 }
