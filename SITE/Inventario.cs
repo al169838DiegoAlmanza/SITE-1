@@ -22,6 +22,7 @@ namespace SITE
 
         }
 
+
         private void BtnVentas_Click(object sender, EventArgs e)
         {
             //se cierra la ventana actual
@@ -29,6 +30,15 @@ namespace SITE
             //se abre la pantalla 
             Venta venta = new Venta();
             venta.Show();
+        }
+
+        private void BtnHistorial_Click(object sender, EventArgs e)
+        {
+            //se cierra la ventana actual
+            this.Hide();
+            //se abre la pantalla 
+            Historial historial = new Historial();
+            historial.Show();
         }
 
         private void BtnProveedores_Click(object sender, EventArgs e)
@@ -47,18 +57,6 @@ namespace SITE
             //se abre la pantalla de historial
             Inventario inventario = new Inventario();
             inventario.Show();
-        }
-
-        private void BtnSalir_Click(object sender, EventArgs e)
-        {
-            //AQUI SE ENVIA AL MENU
-
-
-            //se cierra la ventana actual
-            //this.Hide();
-            //se abre la pantalla de historial
-            //Proveedor proveedor = new Proveedor();
-            //proveedor.Show();
         }
     }
 }

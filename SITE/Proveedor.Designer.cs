@@ -106,6 +106,7 @@ namespace SITE
             this.BtnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnProveedores.UseVisualStyleBackColor = false;
+            this.BtnProveedores.Click += new System.EventHandler(this.BtnProveedores_Click);
             // 
             // BtnHistorial
             // 
@@ -125,6 +126,7 @@ namespace SITE
             this.BtnHistorial.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnHistorial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnHistorial.UseVisualStyleBackColor = false;
+            this.BtnHistorial.Click += new System.EventHandler(this.BtnHistorial_Click);
             // 
             // BtnProductos
             // 
@@ -144,6 +146,7 @@ namespace SITE
             this.BtnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnProductos.UseVisualStyleBackColor = false;
+            this.BtnProductos.Click += new System.EventHandler(this.BtnProductos_Click);
             // 
             // BtnVentas
             // 
@@ -161,6 +164,7 @@ namespace SITE
             this.BtnVentas.Text = "Ventas";
             this.BtnVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnVentas.UseVisualStyleBackColor = false;
+            this.BtnVentas.Click += new System.EventHandler(this.BtnVentas_Click);
             // 
             // panelMenu
             // 

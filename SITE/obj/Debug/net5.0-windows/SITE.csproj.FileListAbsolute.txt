@@ -19,3 +19,16 @@ C:\Users\LATITUDE-E5440\Source\Repos\169870MichelleRincon\SITEejemplo\SITE\obj\D
 C:\Users\LATITUDE-E5440\Source\Repos\169870MichelleRincon\SITEejemplo\SITE\obj\Debug\net5.0-windows\SITE.genruntimeconfig.cache
 C:\Users\LATITUDE-E5440\Source\Repos\169870MichelleRincon\SITEejemplo\SITE\obj\Debug\net5.0-windows\SITE.Inventario.resources
 C:\Users\LATITUDE-E5440\Source\Repos\169870MichelleRincon\SITEejemplo\SITE\obj\Debug\net5.0-windows\SITE.Proveedor.resources
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.csprojAssemblyReference.cache
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.Historial.resources
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.Inventario.resources
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.Proveedor.resources
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.Venta.resources
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.csproj.GenerateResource.cache
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.AssemblyInfoInputs.cache
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.AssemblyInfo.cs
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.csproj.CoreCompileInputs.cache
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.dll
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\ref\SITE.dll
+C:\Users\LATITUDE-E5440\Source\Repos\SITE\SITE\obj\Debug\net5.0-windows\SITE.pdb

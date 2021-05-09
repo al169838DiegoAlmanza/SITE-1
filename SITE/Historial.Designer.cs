@@ -39,8 +39,13 @@ namespace SITE
             this.BtnVentas = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Titulo = new System.Windows.Forms.Label();
+            this.dGVHistorial = new System.Windows.Forms.DataGridView();
+            this.Id_Venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVHistorial)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -178,12 +183,42 @@ namespace SITE
             this.Titulo.TabIndex = 12;
             this.Titulo.Text = "Historial de ventas";
             // 
+            // dGVHistorial
+            // 
+            this.dGVHistorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVHistorial.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id_Venta,
+            this.Fecha,
+            this.Total});
+            this.dGVHistorial.Location = new System.Drawing.Point(252, 162);
+            this.dGVHistorial.Name = "dGVHistorial";
+            this.dGVHistorial.RowTemplate.Height = 25;
+            this.dGVHistorial.Size = new System.Drawing.Size(428, 517);
+            this.dGVHistorial.TabIndex = 13;
+            this.dGVHistorial.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Id_Venta
+            // 
+            this.Id_Venta.HeaderText = "Id Venta";
+            this.Id_Venta.Name = "Id_Venta";
+            // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha de Captura";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Total
+            // 
+            this.Total.HeaderText = "Total";
+            this.Total.Name = "Total";
+            // 
             // Historial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1339, 743);
+            this.Controls.Add(this.dGVHistorial);
             this.Controls.Add(this.Titulo);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.BtnSalir);
@@ -198,6 +233,7 @@ namespace SITE
             this.Load += new System.EventHandler(this.Historial_Load);
             this.panelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVHistorial)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +251,9 @@ namespace SITE
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label Titulo;
         private System.Windows.Forms.Button BtnVentas;
+        private System.Windows.Forms.DataGridView dGVHistorial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id_Venta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
     }
 }
